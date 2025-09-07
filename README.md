@@ -28,11 +28,10 @@ The goal is to demonstrate the mechanics behind logistic regression and provide 
 ### 1. Model Equation
 
 
-$$
-
+\[
 \hat{y} = \sigma(WX + b) \quad \text{where } \sigma(z) = \frac{1}{1 + e^{-z}}
+\]
 
-$$
 
 - **X** → Input features (like blood pressure, BMI, smoking, etc.).  
 - **W** → Weights (importance of each feature).  
